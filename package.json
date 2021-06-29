@@ -1,18 +1,21 @@
 {
-  "name": "truck_server",
+  "name": "setup-basic-nodejs-server",
   "version": "1.0.0",
-  "description": "Create a service that will mimic the backend of a parcel company",
+  "description": "",
   "main": "parcel_server.js",
+  "scripts": {
+    "dev": "nodemon parcel_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uldis",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.16.4",
     "joi": "^17.4.0",
     "nodemon": "^2.0.7"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": []
 }
